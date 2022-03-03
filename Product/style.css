@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.header {
+	display: flex;
+	/* background: url("https://image-tc.galaxy.tf/wijpeg-5sqa22nqekunv86fx43v7e7mc/file.jpg?width=1920")
+		0 100%;
+	background-repeat: no-repeat;
+	background-size: 100%; */
+	background-color: black;
+	height: 120px;
+	margin: 0 auto;
+	opacity: 0.5s;
+}
+.logo_header {
+	cursor: pointer;
+	height: 105px;
+	position: absolute;
+	top: 0;
+	left: 329px;
+	margin-top: 10px;
+}
+.navbar {
+	position: absolute;
+	top: 10px;
+	left: 489px;
+	width: 60%;
+}
+.navbar-nav {
+	display: flex;
+	list-style-type: none;
+}
+.nav-item {
+	padding: 25px;
+}
+.nav-item a {
+	cursor: pointer;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+}
+.nav-link:hover {
+	box-shadow: 0 2px rgb(255, 255, 255);
+}
+.nav-item:hover {
+	background-color: rgb(79, 78, 78);
+}
+#icon-menu {
+	font-size: 24px;
+}
+
+.title {
+	font-size: 25px;
+	margin-top: 15px;
+	color: rgb(49, 23, 13);
+}
+.column {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+.column div {
+	margin: 30px;
+	font-size: 30px;
+}
+p {
+	padding: 10px;
+	font-size: 15px;
+}
+h4 {
+	color: red;
+	font-size: 20px;
+}
+.footer {
+	margin-right: 100px;
+}
+.product {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
